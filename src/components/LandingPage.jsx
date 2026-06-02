@@ -246,7 +246,7 @@ export default function LandingPage({ onEnter }) {
       <footer className="border-t border-brand-border py-8 bg-brand-bg transition-colors duration-300">
         <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-brand-text-secondary font-medium">
-            © {new Date().getFullYear()} Berd Habit. Designed for premium botanical productivity.
+            © {new Date().getFullYear()} Berd Habit. Designed for premium botanical productivity. • Prepared with ❤️ by Berd
           </p>
           <div className="flex gap-6 text-xs font-semibold text-brand-text-secondary">
             <span className="hover:text-brand-accent transition cursor-pointer" onClick={onEnter}>Dashboard</span>

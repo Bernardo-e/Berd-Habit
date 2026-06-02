@@ -457,8 +457,13 @@ export default function App() {
         </header>
 
         {/* PAGE CONTENT WINDOW */}
-        <main className="flex-1 overflow-y-auto px-4 py-6 md:p-10 pb-24 md:pb-10 max-w-6xl mx-auto w-full">
-          {renderContent()}
+        <main className="flex-1 overflow-y-auto px-4 py-6 md:p-10 pb-24 md:pb-10 max-w-6xl mx-auto w-full flex flex-col justify-between">
+          <div className="flex-1">
+            {renderContent()}
+          </div>
+          <footer className="mt-12 pt-6 border-t border-brand-border/30 text-center text-xs text-brand-text-secondary/50 font-medium">
+            Prepared with ❤️ by Berd
+          </footer>
         </main>
 
         {/* BOTTOM NAVIGATION - Mobile Only */}
